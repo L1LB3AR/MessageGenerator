@@ -41,7 +41,7 @@ function random(inf, sup) {
 
 //Main
 console.log('Welcome to the Gym Message Generator.');
-//do{
+do{
     let keyboardMessage = prompt ('Do you want to output a message? (Y/N)','');
     let auxArray = juntarArrays(gym, motivational, sigma);
     if(keyboardMessage === 'Y'){
@@ -59,4 +59,4 @@ console.log('Welcome to the Gym Message Generator.');
             default: console.log('a'); break;
         }
     }
-//}while(keyboardMessage === 'Y');
+}while(keyboardMessage === 'Y');
